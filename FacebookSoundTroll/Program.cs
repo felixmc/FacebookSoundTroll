@@ -15,9 +15,6 @@ namespace FacebookSoundTroll
 
 		static void Main(string[] args)
 		{
-			System.Diagnostics.ProcessStartInfo start = new System.Diagnostics.ProcessStartInfo();
-			start.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
-
 			Random random = new Random();
 			SoundPlayer sound = new SoundPlayer( Properties.Resources.note1 );
 
